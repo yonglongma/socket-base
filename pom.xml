@@ -5,8 +5,9 @@
   <artifactId>socket-base</artifactId>
   <packaging>war</packaging>
   <version>1.0.0-SNAPSHOT</version>
-  <name>socket Maven Webapp</name>
+  <name>com.yonglongma.socket Maven Webapp</name>
   <url>http://maven.apache.org</url>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -14,8 +15,16 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-all</artifactId>
+      <version>4.1.9.Final</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
+
   <build>
-    <finalName>socket-base</finalName>
+    <finalName>com.yonglongma.socket-base</finalName>
   </build>
 </project>
